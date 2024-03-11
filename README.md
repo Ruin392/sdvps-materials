@@ -9,6 +9,9 @@
  ![image](https://github.com/Ruin392/sdvps-materials/assets/53511812/c195c86a-ba7c-4b33-a95a-03255ac57ad0)
 
 
+### Задание 2
+- Скриншот-1 к заданию 2
+ ![image](https://github.com/Ruin392/sdvps-materials/assets/53511812/3ce87437-c6f2-4eeb-86cd-2007ea9945a5)
 
 
 
