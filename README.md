@@ -6,8 +6,7 @@
 
 
 ### Задание 2
-- Скриншот-1 к заданию 2
- ![image](https://github.com/Ruin392/sdvps-materials/assets/53511812/3ce87437-c6f2-4eeb-86cd-2007ea9945a5)
+- Скриншот-1 к заданию 2 : [Сборка](https://github.com/Ruin392/sdvps-materials/assets/53511812/3ce87437-c6f2-4eeb-86cd-2007ea9945a5)
 
 - Код с измененными конфигами (указал абсолютные пути )
 ```
