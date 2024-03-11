@@ -7,8 +7,7 @@
  [Статус Выполнения job_2](https://github.com/Ruin392/sdvps-materials/assets/53511812/0019e959-befb-4fcf-ad13-3c3b5ff4d6fb)
 
 -   Скриншот- 3 к заданию 1:
--   
-    астройки jobы](https://github.com/Ruin392/sdvps-materials/assets/53511812/c195c86a-ba7c-4b33-a95a-03255ac57ad0)
+-  [Настройки jobы](https://github.com/Ruin392/sdvps-materials/assets/53511812/c195c86a-ba7c-4b33-a95a-03255ac57ad0)
 
 
 ### Задание 2
