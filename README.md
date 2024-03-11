@@ -13,5 +13,26 @@
 - Скриншот-1 к заданию 2
  ![image](https://github.com/Ruin392/sdvps-materials/assets/53511812/3ce87437-c6f2-4eeb-86cd-2007ea9945a5)
 
-
+- Код с измененными конфигами (указал абсолютные пути )
+```
+pipeline {
+ agent any
+ stages {
+  stage('Git') {
+   steps {git 'https://github.com/netology-code/sdvps-materials.git'}
+  }
+  stage('Test') {
+   steps {
+    sh 'cd /var/lib/jenkins/workspace/Net-Pipe'
+    sh '/usr/local/go/bin/go test .'
+   }
+  }
+  stage('Build') {
+   steps {
+    sh ' /usr/bin/docker build . -t ubuntu-bionic:8082/hello-world:v$BUILD_NUMBER'
+   }
+  }
+ }
+}
+```
 
