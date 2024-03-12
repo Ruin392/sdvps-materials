@@ -1,6 +1,7 @@
 ## Аюпов Евгений 
 ### Задание 1
- -   Скриншот-1 к заданию 1: [Статус Выполнения job](https://github.com/Ruin392/sdvps-materials/assets/53511812/f2b803e9-60cb-43f8-a2d6-32b8db0aed11)
+ -   Скриншот-1 к заданию 1: [Статус Выполнения job_](https://github.com/Ruin392/sdvps-materials/assets/53511812/71c855ba-1660-4a96-9fed-d08beaf6b9e0)
+
  -   Скриншот-2 к заданию 1: [Статус Выполнения job_2](https://github.com/Ruin392/sdvps-materials/assets/53511812/0019e959-befb-4fcf-ad13-3c3b5ff4d6fb)
  -   Скриншот- 3 к заданию 1: [Настройки jobы](https://github.com/Ruin392/sdvps-materials/assets/53511812/c195c86a-ba7c-4b33-a95a-03255ac57ad0)
 
