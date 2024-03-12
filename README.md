@@ -3,7 +3,8 @@
  -   Скриншот-1 к заданию 1: [Статус Выполнения job_](https://github.com/Ruin392/sdvps-materials/assets/53511812/71c855ba-1660-4a96-9fed-d08beaf6b9e0)
 
  -   Скриншот-2 к заданию 1: [Статус Выполнения job_2](https://github.com/Ruin392/sdvps-materials/assets/53511812/0019e959-befb-4fcf-ad13-3c3b5ff4d6fb)
- -   Скриншот- 3 к заданию 1: [Настройки jobы](https://github.com/Ruin392/sdvps-materials/assets/53511812/c195c86a-ba7c-4b33-a95a-03255ac57ad0)
+ -   Скриншот- 3 к заданию 1: [Настройка Job](https://github.com/Ruin392/sdvps-materials/assets/53511812/b87f0d74-8afb-41d7-84b5-21b4593d0777)
+
 
 
 ### Задание 2
