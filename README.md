@@ -16,18 +16,28 @@ pipeline {
  agent any
  stages {
   stage('Git') {
-   steps {git 'https://github.com/netology-code/sdvps-materials.git'}
+   steps {
+       sh 'cd /var/lib/jenkins/workspace/Pipe-HW'
+       git 'https://github.com/netology-code/sdvps-materials.git'
+       
+   }
   }
   stage('Test') {
    steps {
-    sh 'cd /var/lib/jenkins/workspace/Net-Pipe'
-    sh '/usr/local/go/bin/go test .'
+    sh 'cd /var/lib/jenkins/workspace/Pipe-HW '
+    sh 'go test .'
    }
   }
   stage('Build') {
    steps {
-    sh ' /usr/bin/docker build . -t ubuntu-bionic:8082/hello-world:v$BUILD_NUMBER'
+    sh 'cd /var/lib/jenkins/workspace/Pipe-HW'
+    sh 'docker build . -t ubuntu-bionic:8082/hello-world:v$BUILD_NUMBER'
    }
+  }
+  stage('Push') {
+   steps {
+    sh 'cd /var/lib/jenkins/workspace/Pipe-HW'
+    sh 'docker login ubuntu-bionic:8082 -u admin -p R0g3yufuty && docker push ubuntu-bionic:8082/hello-world:v$BUILD_NUMBER && docker logout'   }
   }
  }
 }
