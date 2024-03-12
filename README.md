@@ -42,4 +42,32 @@ pipeline {
  }
 }
 ```
+### Задание 3
+- Скриншот-1 задание 3 : [Статус сборки](https://github.com/Ruin392/sdvps-materials/assets/53511812/e31c3562-ea62-449a-8987-c361ff498624)
+- Код pipeline 
+```
+pipeline {
+ agent any
+ stages {
+  stage('Build') {
+   steps {
+    sh 'cd /var/lib/jenkins/workspace/Create-go-bin/'   
+    sh 'CGO_ENABLED=0 GOOS=linux /usr/local/go/bin/go build -a -installsuffix nocgo -o sdvps-materials'
+   }
+  }
+  stage('PUT') {
+    steps {
+      sh 'cd /var/lib/jenkins/workspace/Create-go-bin/'
+      sh 'curl -X PUT   -u admin:R0g3yufuty  -H "Content-Type: application/octet-stream"   -F "file=@sdvps-materials"   "http://localhost:8081/repository/my-raw/sdvps-materials"'
+    }
+  }
+ }
+}
+
+```
+- Скриншот-3 задание 3 : [Файл на сонар кьюбе ](https://github.com/Ruin392/sdvps-materials/assets/53511812/67a1a316-9c52-4cd9-87f9-969df37f0127)
+
+
+
+
 
